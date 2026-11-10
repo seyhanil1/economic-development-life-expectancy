@@ -1,0 +1,152 @@
+{
+ "year_window": [
+  2000,
+  2024
+ ],
+ "entities_total": 296,
+ "aggregates": 79,
+ "economies": 217,
+ "gdp_raw_records": 6916,
+ "gdp_blank_iso3_records": 130,
+ "gdp_duplicate_rows_dropped": 0,
+ "gdp_aggregate_records_removed": 1274,
+ "gdp_records_outside_window": 217,
+ "gdp_nonmissing_outside_window": 185,
+ "le_raw_records": 6916,
+ "le_blank_iso3_records": 130,
+ "le_duplicate_rows_dropped": 0,
+ "le_aggregate_records_removed": 1274,
+ "le_records_outside_window": 217,
+ "le_nonmissing_outside_window": 0,
+ "panel_rows": 5425,
+ "exclusion_counts": {
+  "included": 4916,
+  "missing_gdp": 509
+ },
+ "analysis_rows": 4916,
+ "analysis_economies": 199,
+ "economies_never_usable": [
+  "American Samoa",
+  "British Virgin Islands",
+  "Channel Islands",
+  "Cuba",
+  "Eritrea",
+  "French Polynesia",
+  "Gibraltar",
+  "Guam",
+  "Isle of Man",
+  "Korea, Dem. People's Rep.",
+  "Liechtenstein",
+  "Monaco",
+  "New Caledonia",
+  "Northern Mariana Islands",
+  "South Sudan",
+  "St. Martin (French part)",
+  "Venezuela, RB",
+  "Yemen, Rep."
+ ],
+ "flag_le_extreme_low": [
+  {
+   "iso3": "CAF",
+   "year": 2009,
+   "life_expectancy": 14.665
+  },
+  {
+   "iso3": "CAF",
+   "year": 2019,
+   "life_expectancy": 31.53
+  },
+  {
+   "iso3": "CAF",
+   "year": 2022,
+   "life_expectancy": 18.818
+  },
+  {
+   "iso3": "SOM",
+   "year": 2011,
+   "life_expectancy": 32.453
+  },
+  {
+   "iso3": "SSD",
+   "year": 2015,
+   "life_expectancy": 39.757
+  },
+  {
+   "iso3": "SSD",
+   "year": 2016,
+   "life_expectancy": 36.72
+  },
+  {
+   "iso3": "SSD",
+   "year": 2017,
+   "life_expectancy": 35.351
+  }
+ ],
+ "flag_le_transient_shock": [
+  {
+   "iso3": "CAF",
+   "year": 2009,
+   "life_expectancy": 14.665
+  },
+  {
+   "iso3": "CAF",
+   "year": 2014,
+   "life_expectancy": 40.265
+  },
+  {
+   "iso3": "CAF",
+   "year": 2017,
+   "life_expectancy": 45.231
+  },
+  {
+   "iso3": "CAF",
+   "year": 2018,
+   "life_expectancy": 52.297
+  },
+  {
+   "iso3": "CAF",
+   "year": 2019,
+   "life_expectancy": 31.53
+  },
+  {
+   "iso3": "CAF",
+   "year": 2020,
+   "life_expectancy": 50.596
+  },
+  {
+   "iso3": "CAF",
+   "year": 2021,
+   "life_expectancy": 40.279
+  },
+  {
+   "iso3": "CAF",
+   "year": 2022,
+   "life_expectancy": 18.818
+  },
+  {
+   "iso3": "HTI",
+   "year": 2010,
+   "life_expectancy": 45.577
+  },
+  {
+   "iso3": "MMR",
+   "year": 2008,
+   "life_expectancy": 56.364
+  },
+  {
+   "iso3": "SOM",
+   "year": 2011,
+   "life_expectancy": 32.453
+  },
+  {
+   "iso3": "SSD",
+   "year": 2014,
+   "life_expectancy": 45.625
+  },
+  {
+   "iso3": "SSD",
+   "year": 2018,
+   "life_expectancy": 51.905
+  }
+ ]
+}

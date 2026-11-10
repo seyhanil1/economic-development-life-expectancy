@@ -1,0 +1,8 @@
+# Keep the raw API responses byte-exact, so that the SHA-256 checksums in
+# data/raw/download_manifest.json and data/raw/archive/ARCHIVE_MANIFEST.json
+# stay valid on every platform.
+# (Without this, core.autocrlf would change line endings on commit or checkout.)
+data/raw/** -text
+
+*.gz binary
+*.png binary

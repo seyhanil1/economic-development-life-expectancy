@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+
+# Local-only backups (not published): original uncompressed WDI archive downloads,
+# including v202412, which no published result depends on
+local_backup/
+# Archive releases are published only as integrity-checked .json.gz
+data/raw/archive/*.json
+!data/raw/archive/ARCHIVE_MANIFEST.json

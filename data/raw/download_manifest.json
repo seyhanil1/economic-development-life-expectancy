@@ -1,0 +1,30 @@
+{
+ "retrieved_at_utc": "2026-11-10T13:46:55+00:00",
+ "api_base": "https://api.worldbank.org/v2",
+ "requested_years": "2000:2025",
+ "files": {
+  "NY.GDP.PCAP.PP.KD.json": {
+   "request": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.PP.KD?format=json&date=2000:2025",
+   "records": 6916,
+   "api_total": 6916,
+   "api_lastupdated": "2026-10-08",
+   "sha256": "4111fad8df7c161e25ee90c4167f529e240c333fc59893eeb63ba182bf44758f"
+  },
+  "SP.DYN.LE00.IN.json": {
+   "request": "https://api.worldbank.org/v2/country/all/indicator/SP.DYN.LE00.IN?format=json&date=2000:2025",
+   "records": 6916,
+   "api_total": 6916,
+   "api_lastupdated": "2026-10-08",
+   "sha256": "32a01b4940b99f3bfd2e224bbb018fb028bc63702ba85d56b438b68e815bcaa6"
+  },
+  "countries.json": {
+   "request": "https://api.worldbank.org/v2/country?format=json",
+   "records": 296,
+   "sha256": "53c3a7994b5a3ebf72fd2ebae0aaa7f7afcf272eeb56cd637206ccb9fa680bdf"
+  },
+  "indicator_metadata.json": {
+   "request": "https://api.worldbank.org/v2/sources/2/series/<indicator>/metadata?format=json",
+   "sha256": "c9b559f74e7dfd2cc33ed3b022d3765bc75762f3bf09ab4815a5b5e720943d72"
+  }
+ }
+}

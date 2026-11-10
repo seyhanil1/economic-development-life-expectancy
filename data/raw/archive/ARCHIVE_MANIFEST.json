@@ -1,0 +1,35 @@
+{
+ "compression": "gzip, level 9, mtime=0, no filename (deterministic)",
+ "not_published": {
+  "202412": {
+   "location": "local_backup/archive_original/ (excluded from the repository by .gitignore)",
+   "note": "Values identical to v202503 for all 217 economies (differences only ~1e-13 rounding in aggregates); not needed to reproduce any result.",
+   "original_bytes": 6101459,
+   "original_file": "SP.DYN.LE00.IN_v202412.json",
+   "original_sha256": "21ae7938fead875ed48696c4e2a12c2142fcf73fbbda49dc0ef7e9e15151197f",
+   "retrieved": "2026-11-10"
+  }
+ },
+ "series": "SP.DYN.LE00.IN",
+ "source": "World Bank WDI Database Archives (API source 57)",
+ "versions": {
+  "202503": {
+   "file": "SP.DYN.LE00.IN_v202503.json.gz",
+   "gz_bytes": 183516,
+   "gz_sha256": "73dc049fb7ea44b78dd9b10186cd02e32eb050fc30a401e21d77ebae931ef898",
+   "original_bytes": 6101459,
+   "original_file": "SP.DYN.LE00.IN_v202503.json",
+   "original_sha256": "14f3e77a47a1f223f34f954d69f5449b6712f227b38b6be4a66eedf2556b049a",
+   "retrieved": "2026-11-10"
+  },
+  "202504": {
+   "file": "SP.DYN.LE00.IN_v202504.json.gz",
+   "gz_bytes": 186796,
+   "gz_sha256": "4605b033d5315a91ee98004379dac46ce56a3bbd5b42d016c25e87c9496893a3",
+   "original_bytes": 6105205,
+   "original_file": "SP.DYN.LE00.IN_v202504.json",
+   "original_sha256": "fe9ec342e12c9f1660bd830912a27a523c8e91205b198c61a506af4f3496f9b7",
+   "retrieved": "2026-11-10"
+  }
+ }
+}
