@@ -13,9 +13,8 @@ The **original written content** of this repository is licensed under the
 Text written for this project:
 
 * `README.md`
-* `reports/research_report_tr.md`, `reports/student_learning_guide_tr.md`, `reports/final_scientific_audit_tr.md`, `reports/methodology.md`, `reports/data_quality_report.md`, `reports/technical_report.md`
+* `reports/research_report_tr.md`, `reports/student_learning_guide_tr.md`, `reports/final_scientific_audit_tr.md`, `reports/methodology.md`, `reports/data_quality_report.md`, `reports/technical_report.md`, `reports/release_readiness_report_tr.md`
 * `data/data_dictionary.md`
-* `GITHUB_RELEASE_READINESS_REPORT.md`
 * the Markdown (text) cells of `notebooks/01_analysis.ipynb`
 
 ## What this licence does NOT cover

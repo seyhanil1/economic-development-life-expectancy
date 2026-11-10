@@ -139,6 +139,7 @@ Re-running `python src/run_pipeline.py` without `--offline` downloads the *curre
 │   ├── final_scientific_audit_tr.md   pre-publication audit (Turkish)
 │   ├── student_learning_guide_tr.md   learning guide + exercises (Turkish)
 │   ├── methodology.md · data_quality_report.md · technical_report.md
+│   ├── release_readiness_report_tr.md pre-publication checklist and log (Turkish)
 │   ├── tables/              every computed table (CSV) + results.json
 │   └── audit/               audit outputs, economy lists
 └── tests/                   pytest: cleaning, statistics, archive integrity, mocked API, 1 live API test
@@ -197,7 +198,7 @@ This repository uses three licence scopes, which do not overlap:
 | Scope | Files | Licence | Licence file |
 |---|---|---|---|
 | **Code** | `src/`, `audit/`, `tests/`, notebook code cells, `requirements.txt`, `pytest.ini`, `.gitignore`, `.gitattributes` | MIT | [`LICENSE`](LICENSE) |
-| **Original written content** | `README.md`, `reports/*.md`, `data/data_dictionary.md`, `GITHUB_RELEASE_READINESS_REPORT.md`, notebook Markdown cells | CC BY 4.0 (author) | [`LICENSE-DOCS.md`](LICENSE-DOCS.md) |
+| **Original written content** | `README.md`, `reports/*.md`, `data/data_dictionary.md`, notebook Markdown cells | CC BY 4.0 (author) | [`LICENSE-DOCS.md`](LICENSE-DOCS.md) |
 | **World Bank data and derivatives** | `data/raw/`, `data/processed/`, `reports/tables/`, `reports/audit/`, `figures/`, notebook outputs, and the data values quoted in the texts | CC BY 4.0 (World Bank) | [`DATA_LICENSE.md`](DATA_LICENSE.md) |
 
 Reusing figures, tables or numbers requires the World Bank attribution given in `DATA_LICENSE.md`. This applies even when they are quoted inside the CC BY 4.0 texts.
@@ -205,3 +206,11 @@ Reusing figures, tables or numbers requires the World Bank attribution given in 
 ## Purpose
 
 This project was carried out by a second-year statistics student for **education and portfolio purposes**. It aims to show a careful, transparent and reproducible workflow: official data, documented cleaning, appropriate methods, diagnostics, an independent audit and honest reporting of uncertainty. It is not peer-reviewed research.
+
+## AI assistance
+
+This project was developed with the help of **Claude (Anthropic)**, an AI model. For that reason Claude appears as a co-author in the commit history.
+
+* **Claude's role:** wrote most of the code and drafted the reports, under the author's direction.
+* **The author's role:** defined the research questions and scope, made the methodological and publication decisions, requested the independent audit and its corrections, and reviewed and approved every change.
+* **How the results were checked:** every number in the reports is produced by the code in this repository, from the archived official data. Each number is checked by automated tests (`pytest`) and by an independent re-computation (`audit/run_audit.py`). Statements that could not be verified are marked as such.

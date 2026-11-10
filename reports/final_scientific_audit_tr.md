@@ -146,7 +146,7 @@ Kaynak: `reports/audit/sensitivity_summary.csv`. Model B eğimi ve iki yönlü s
 | ✅ | `pytest --run-network`: 38/38 başarılı (denetim sonrası yeniden çalıştırıldı). *Güncelleme: arşiv testleriyle birlikte 44/44.* |
 | ✅ | Raporlardaki hatalı ifadeler düzeltildi (H1–H7) |
 | ⚠️ | Düzeltilen raporları sizin okumanız gerekiyor. Özellikle CAF ve veri sürümü ile ilgili bölümler |
-| ⚠️ | Kod lisansı ve yazar bilgisi: *Güncelleme. `LICENSE` (MIT, kod), `LICENSE-DOCS.md` (CC BY 4.0, özgün metinler) ve `DATA_LICENSE.md` (Dünya Bankası verisi) taslakları eklendi. Yazar alanı hâlâ boş, bkz. `GITHUB_RELEASE_READINESS_REPORT.md`.* |
+| ⚠️ | Kod lisansı ve yazar bilgisi: *Güncelleme. `LICENSE` (MIT, kod), `LICENSE-DOCS.md` (CC BY 4.0, özgün metinler) ve `DATA_LICENSE.md` (Dünya Bankası verisi) taslakları eklendi. Yazar alanı hâlâ boş, bkz. `reports/release_readiness_report_tr.md`.* |
 | ✅ | *Güncelleme: Arşiv kararı uygulandı. 202503 ve 202504 kayıpsız gzip olarak saklanıyor (0,37 MB) ve SHA-256 ile doğrulanıyor. 202412 yalnızca yerel yedekte duruyor. CAF tablosunda artık 202412 sütunu yok; o sütunun değerleri 202503 ile aynıydı.* Önceki not: `data/raw/archive/` klasörü (yaklaşık 18 MB) depoya eklenecek mi, karar verilmeli. Denetimin tekrar üretilmesi için gerekli; dışarıda bırakılırsa betik `--refetch` ile yeniden indirir |
 | ⚠️ | Notebook denetim bulgularını içermiyor. Bu bir tutarsızlık değil, ama notebook'a denetim raporuna bir bağlantı eklenebilir |
 | ⚠️ | Temiz bir sanal ortamda kurulum hâlâ denenmedi |

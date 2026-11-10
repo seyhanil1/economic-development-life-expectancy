@@ -134,7 +134,7 @@ Liste `.gitignore` kuralları uygulanarak çıkarıldı. Git kurulmadığı içi
 
 | Klasör | Dosya | Boyut |
 |---|---|---|
-| Kök (`README.md`, `LICENSE`, `LICENSE-DOCS.md`, `DATA_LICENSE.md`, `GITHUB_RELEASE_READINESS_REPORT.md`, `requirements.txt`, `pytest.ini`, `.gitignore`, `.gitattributes`) | 9 | ~45 KB |
+| Kök (`README.md`, `LICENSE`, `LICENSE-DOCS.md`, `DATA_LICENSE.md`, `requirements.txt`, `pytest.ini`, `.gitignore`, `.gitattributes`) | 9 | ~45 KB |
 | `src/` | 5 | 59,3 KB |
 | `audit/` (`run_audit.py`, `archive_io.py`) | 2 | 33,0 KB |
 | `tests/` (`conftest.py` + 4 test dosyası) | 5 | 20,8 KB |
