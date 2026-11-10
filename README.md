@@ -149,7 +149,7 @@ Re-running `python src/run_pipeline.py` without `--offline` downloads the *curre
 Tested with Python 3.14.4 on Windows 11, using the exact versions in `requirements.txt`, in a fresh virtual environment. Other versions are untested.
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/seyhanil1/economic-development-life-expectancy.git
 cd economic-development-life-expectancy
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt

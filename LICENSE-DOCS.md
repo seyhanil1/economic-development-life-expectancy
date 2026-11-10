@@ -26,6 +26,6 @@ Text written for this project:
 
 ## How to attribute this content
 
-> Seyhan Anıl Kaya (2026). *Economic Development & Life Expectancy: A Cross-Country Statistical Analysis Using World Bank Data*. [REPOSITORY URL]. Text licensed under CC BY 4.0. Contains data from the World Bank (World Development Indicators), CC BY 4.0.
+> Seyhan Anıl Kaya (2026). *Economic Development & Life Expectancy: A Cross-Country Statistical Analysis Using World Bank Data*. https://github.com/seyhanil1/economic-development-life-expectancy. Text licensed under CC BY 4.0. Contains data from the World Bank (World Development Indicators), CC BY 4.0.
 
 If you reuse figures, tables or numbers, you must also include the World Bank attribution in `DATA_LICENSE.md`.
